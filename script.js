@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
       const navToggle = document.getElementById('navToggle');
       const navMenu = document.getElementById('navMenu');
-      const navToggleLines = document.querySelectorAll('.nav__toggle-line');
+      const navToggleLines = document.querySelectorAll('nav__toggle-line');
 
       navToggle.addEventListener('click', function(){
       navMenu.classList.toggle('nav__menu--action');
